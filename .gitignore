@@ -1,0 +1,41 @@
+# Caché del motor
+.godot/
+*.translation
+
+# Artefactos de compilación y entrega
+build/
+*.apk
+*.aab
+*.idsig
+*.keystore
+*.jks
+*.pck
+
+# Archivos comprimidos de origen (mods descargados, no redistribuibles)
+*.7z
+*.zip
+*.rar
+
+# Volcados y herramientas locales: los informes y sondas se versionan a mano
+.tools/
+AC2026/
+VehiclePrototypes/
+montreal/
+
+# Medios pesados derivados de Assetto Corsa (mallas, texturas, escenas importadas).
+# Ver README: no se publican por tamaño y por licencia.
+assets/
+montreal-guide.fbx
+montreal-guide.fbx.import
+montreal-guide_*.png
+montreal-guide_*.png.import
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Estado local de la herramienta
+.freebuff/
+
+# Configuración del IDE
+.idea/
